@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GAKS Building Enterprise</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+    <h2>GAKS</h2>
+    <nav id="navMenu">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="menu-btn" onclick="toggleMenu()">
+        <i class="fa fa-bars"></i>
+    </div>
+</header>
+
+<!-- HERO -->
+<section id="home" class="hero">
+    <div class="hero-content">
+        <h1>Professional Construction Services in Sagana</h1>
+        <p>We build, design, supply materials & deliver quality projects.</p>
+        <a href="#quote" class="btn">Request a Quote</a>
+    </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="services">
+    <h2>Our Services</h2>
+
+    <div class="grid">
+        <div class="card"><i class="fa fa-house"></i><h3>Building Construction</h3></div>
+        <div class="card"><i class="fa fa-wrench"></i><h3>Fittings & Installation</h3></div>
+        <div class="card"><i class="fa fa-paint-roller"></i><h3>Painting</h3></div>
+        <div class="card"><i class="fa fa-road"></i><h3>Paving</h3></div>
+        <div class="card"><i class="fa fa-tree"></i><h3>Landscaping</h3></div>
+        <div class="card"><i class="fa fa-drafting-compass"></i><h3>Plans & Blueprints</h3></div>
+        <div class="card"><i class="fa fa-file-invoice"></i><h3>BOQ & Quotations</h3></div>
+        <div class="card"><i class="fa fa-layer-group"></i><h3>Flooring</h3></div>
+        <div class="card"><i class="fa fa-truck"></i><h3>Building Materials Supply</h3></div>
+    </div>
+</section>
+
+<!-- PROJECTS / GALLERY -->
+<section id="projects" class="projects">
+    <h2>Our Projects</h2>
+    <div class="gallery">
+        <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e">
+        <img src="https://images.unsplash.com/photo-1484154218962-a197022b5858">
+        <img src="https://images.unsplash.com/photo-1493809842364-78817add7ffb">
+        <img src="https://images.unsplash.com/photo-1502672260266-1c1ef2d93688">
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="about">
+    <h2>Why Choose Us</h2>
+    <p>
+        Based in Sagana Town, Kenya, GAKS Building Enterprise provides reliable,
+        affordable and high-quality construction services and materials.
+        We turn your ideas into reality.
+    </p>
+</section>
+
+<!-- QUOTE FORM -->
+<section id="quote" class="quote">
+    <h2>Request a Quote</h2>
+    <form id="quoteForm">
+        <input type="text" placeholder="Full Name" required>
+        <input type="tel" placeholder="Phone Number" required>
+        <input type="text" placeholder="Project Location">
+        <textarea placeholder="Describe your project"></textarea>
+        <button type="submit">Submit Request</button>
+    </form>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>📍 Sagana Town, Kenya</p>
+    <p>📞 WhatsApp: +254740200495</p>
+    <p>📧 williamgakono@gmail.com</p>
+</section>
+
+<!-- FLOATING WHATSAPP -->
+<a href="https://wa.me/254740200495" class="whatsapp">
+    <i class="fab fa-whatsapp"></i>
+</a>
+
+<footer>© 2026 GAKS Building Enterprise</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
